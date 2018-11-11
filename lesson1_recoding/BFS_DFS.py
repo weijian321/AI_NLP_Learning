@@ -1,5 +1,7 @@
 # -*- coding: UTF-8 -*-
 from functools import partial
+import networkx
+import matplotlib.pyplot as plt
 
 graph_long = {
     '1': '2 7',
@@ -18,6 +20,9 @@ graph_long = {
 for n in graph_long:
     graph_long[n] = graph_long[n].split()
 
+num_route = networkx.Graph(graph_long)
+networkx.draw(num_route, with_labels=True)
+#plt.show()
 #print graph_long
 
 def search(graph, concat_func):
