@@ -8,9 +8,10 @@ from operator import mul
 # dic = {'a': 1, 'b': 3, 'c': 10}
 # print dict(dic.items()[:2])
 
-filename = 'wiki_00'
-all_content = (open(filename).read()).decode("utf-8")
-
+filename0 = 'wiki_00'
+filename1 = 'wiki_01'
+all_content = (open(filename0).read()).decode("utf-8") + (open(filename1).read()).decode("utf-8")
+# all_content.append((open(filename1).read()).decode("utf-8"))
 #s = '新华社华盛顿4月13日电（记者林小春）寻找外星生命，目前最理想的地点可能是土星卫星土卫二上的冰封小世界。美国航天局13日宣布，“卡西尼”探测器在土卫二喷出的羽流中探测到氢气，这意味着土卫二具备生命存在的几乎所有已知要素。\\n\u3000\u3000这项发表在美国《科学》杂志上的研究显示，土卫二羽流中98%是水，约1%是氢气，其余是二氧化碳、甲烷和氨等组成的混合物。\\n\u3000\u3000“卡西尼”项目科学家琳达·施皮尔克当天在网'.decode("utf-8")
 
 pair = u"""前天晚上吃晚饭的时候
