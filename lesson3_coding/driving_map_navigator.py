@@ -199,11 +199,3 @@ print('best_path:\n', search_pathes('杭州', '拉萨', min_change_station))
 print('best_path:\n', search_pathes('杭州', '拉萨', min_distance))
 
 print('best_path:\n', search_pathes('杭州', '拉萨', comprehensive_sort))
-# aa = [1, 2, 3]
-# bb = ['1', '2', '3']
-# ccc = 'mm'
-# aa.append(ccc)
-#
-# print('c:\n',  aa)
-# for i in range(len(aa)):
-#     print(i)
