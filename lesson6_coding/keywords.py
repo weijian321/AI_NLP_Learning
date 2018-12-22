@@ -64,7 +64,7 @@ print('tfidf of 的', tf_idf('的', counter_xiaomi))
 print('tfidf of 小米', tf_idf('小米', counter_xiaomi))
 
 
-data_name = 'test_news.txt'
+data_name = 'zhengzhijuhuiyi.txt'
 f = open(data_name, 'rb')
 test_news = pickle.load(f)
 
